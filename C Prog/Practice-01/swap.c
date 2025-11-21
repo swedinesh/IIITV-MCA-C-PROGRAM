@@ -10,9 +10,9 @@ int main() {
 
      printf("After swapping ..!\n");
 
-     b = a + b;
-     a = b - a;
-     b = b - a;
+     b = a + b; // 10 + 20 = 30
+     a = b - a; // 30 - 10 = 20
+     b = b - a; // 30 - 20 = 10
 
      printf("Value of a : %d",a);
      printf("\nValue of b : %d",b);
